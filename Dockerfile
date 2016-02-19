@@ -1,6 +1,6 @@
 FROM docker.clarin.eu/tomcat8:1.1.2
 
-ENV JAVA_OPTS="-Dsolr.data.dir=/opt/solr-data"
+ENV JAVA_OPTS="-Dwicket.configuration=deployment -Dsolr.data.dir=/opt/solr-data"
 
 RUN mkdir -p /opt/solr-data
 RUN rm -r /var/lib/tomcat8/webapps/ROOT
