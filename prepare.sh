@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ARCHIVE_WEBAPP="https://clarin.fz-juelich.de/owncloud/public.php?service=files&t=c5e63c5d1eea6ffbc274d2a94d853f2d&download"
-NAME="vlo-3.4-beta1"
+ARCHIVE_WEBAPP="https://clarin.fz-juelich.de/owncloud/public.php?service=files&t=c74d48d9a15aa1a7dfc456718edb9b83&download"
+NAME="vlo-3.4-beta2"
 
 echo "Downloading external resources"
 
