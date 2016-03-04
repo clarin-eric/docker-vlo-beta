@@ -1,8 +1,9 @@
 #!/bin/sh
 
-echo "Cleaning up"
+source version
 
-if [ -d "webapp/vlo-3.4-beta2" ]; then
-	echo "\tRemoving webapp/vlo-3.4-beta2*"
-	rm -r webapp/vlo-3.4-beta2*
+echo "Cleaning up"
+if [ -d "webapp/${NAME}" ]; then
+	echo "\tRemoving webapp/${NAME}*"
+	rm -r webapp/${NAME}*
 fi
