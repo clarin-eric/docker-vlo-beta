@@ -1,3 +1,3 @@
-DOWNLOAD_LINK="https://clarin.fz-juelich.de/owncloud/public.php?service=files&t=37bd806d113541ca1cac20cd858b66c0&download"
-NAME=vlo-3.4-beta3
-DOCKER_IMAGE_VERSION=1.0.2
+DOWNLOAD_LINK="https://clarin.fz-juelich.de/owncloud/public.php?service=files&t=c153dbed30e162dd88459cb0bd14cfbd&download"
+NAME=vlo-3.4.1-RC1
+DOCKER_IMAGE_VERSION=1.0.4
