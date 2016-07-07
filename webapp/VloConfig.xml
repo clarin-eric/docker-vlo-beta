@@ -83,7 +83,16 @@
         <simpleSearchFacetField>modality</simpleSearchFacetField>
         <simpleSearchFacetField>genre</simpleSearchFacetField>
     </simpleSearchFacetFields>
-    
+
+    <primaryFacetFields>
+        <primaryFacetField>languageCode</primaryFacetField>
+        <primaryFacetField>collection</primaryFacetField>
+        <primaryFacetField>resourceClass</primaryFacetField>
+        <primaryFacetField>modality</primaryFacetField>
+        <primaryFacetField>format</primaryFacetField>
+        <primaryFacetField>keywords</primaryFacetField>
+    </primaryFacetFields>
+
     <!-- Fields shown in expanded search results on the search page -->
     <searchResultFields>
         <searchResultField>name</searchResultField>
@@ -175,12 +184,11 @@
     <cqlEndpointFilter>http://cqlservlet.mpi.nl/</cqlEndpointFilter>
     
     <cqlEndpointAlternative>http://cqlservlet.mpi.nl/</cqlEndpointAlternative>
-    
+
+    <lrSwitchboardBaseUrl>http://weblicht.sfs.uni-tuebingen.de/clrs/</lrSwitchboardBaseUrl>
+
     <!-- makes the score for the result ranking visible in the search results -->
     <showResultScores>false</showResultScores>
     
     <processHierarchies>true</processHierarchies>
-    
-    <!-- max indegree for a node regarding hasPart relations, only relevant if processHierarchies is set to "true" -->
-    <maxIndegreeInHierarchyGraph>500</maxIndegreeInHierarchyGraph>
 </VloConfig>
