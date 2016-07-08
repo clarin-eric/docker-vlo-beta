@@ -32,11 +32,11 @@
     
     <!-- leave empty to use default packaged definition -->
     <facetConceptsFile><!-- use default packaged definition --></facetConceptsFile>
-    
-    <profileSchemaUrl>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/{PROFILE_ID}/xsd</profileSchemaUrl>
-    
-    <componentRegistryRESTURL>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/</componentRegistryRESTURL>
-    
+
+    <profileSchemaUrl>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/{PROFILE_ID}/xsd</profileSchemaUrl>
+
+    <componentRegistryRESTURL>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/</componentRegistryRESTURL>
+
     <handleServerUrl>http://hdl.handle.net/</handleServerUrl>
     
     <nationalProjectMapping>nationalProjectsMapping.xml</nationalProjectMapping>
@@ -50,29 +50,20 @@
     <resourceClassMapUrl>resourceTypeMap.xml</resourceClassMapUrl>
     
     <licenseURIMapUrl>LicenseURIMap.xml</licenseURIMapUrl>
-    
-    <!-- resourceAvailabilityMapUrl
-        Facet field used to populate collection selector on search page 
-        If disabled, the collection facet will not be shown (can be used to
-        move the collection facet in with the other facets).
-        
-        Uncomment to activate the separate collection facet display item.
-    -->
-    <!--<collectionFacet>collection</collectionFacet>-->
-    
+
     <!-- Fields shown as facets on the search page -->
-    <facetFields>        
+    <facetFields>
         <facetField>languageCode</facetField>
         <facetField>collection</facetField>
         <facetField>resourceClass</facetField>
-        <facetField>country</facetField>
         <facetField>modality</facetField>
+        <facetField>format</facetField>
+        <facetField>keywords</facetField>
         <facetField>genre</facetField>
         <facetField>subject</facetField>
-        <facetField>format</facetField>
+        <facetField>country</facetField>
         <facetField>organisation</facetField>
         <facetField>nationalProject</facetField>
-        <facetField>keywords</facetField>
         <facetField>dataProvider</facetField>
     </facetFields>
         
@@ -174,9 +165,9 @@
     <language2LetterCodeComponentUrl>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/components/clarin.eu:cr1:c_1271859438109/xml</language2LetterCodeComponentUrl>
     
     <language3LetterCodeComponentUrl>http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/components/clarin.eu:cr1:c_1271859438110/xml</language3LetterCodeComponentUrl>
-   
-    <silToISO639CodesUrl>http://www.clarin.eu/cmd/xslt/sil_to_iso6393.xml</silToISO639CodesUrl>
-    
+
+    <silToISO639CodesUrl>https://infra.clarin.eu/cmd/xslt/sil_to_iso6393.xml</silToISO639CodesUrl>
+
     <reverseProxyPrefix></reverseProxyPrefix>
     
     <FederatedContentSearchUrl>http://weblicht.sfs.uni-tuebingen.de/Aggregator/</FederatedContentSearchUrl>
